@@ -1,8 +1,6 @@
 import { Observer } from "./Observer"
 import { Subject } from "./Subject"
 
-
-
 const main = () => {
     const subject = new Subject()
     const observer = new Observer(subject)
