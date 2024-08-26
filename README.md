@@ -4,6 +4,7 @@
 - Structural
     - Adapter
     - Facade
+    - Decorator
 - Behavioural 
     - Command
 
@@ -22,3 +23,10 @@
 ![Adapter pattern diagram](/assets/Adapter.jpg "Adapter pattern diagram")
 
 ## Facade
+
+Фасад предоставляет простой верхнеуровневый интерфейс к группе интерфейсов подсистемы и обеспечивает логическую изоляцию клиента от подсистемы. Упрощается работа с подсистемой при этом классы подсистемы остаются доступными для прямого использования.
+
+![Facade Pattern Diageam](/assets/Facade.jpg "Facade pattern diagram")
+
+
+## Decorator
