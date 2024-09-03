@@ -5,8 +5,11 @@
     - Adapter
     - Facade
     - Decorator
+    - Composite
 - Behavioural 
     - Command
+    - Iterator
+    - 
 
 
 ## Adapter
@@ -26,7 +29,13 @@
 
 Фасад предоставляет простой верхнеуровневый интерфейс к группе интерфейсов подсистемы и обеспечивает логическую изоляцию клиента от подсистемы. Упрощается работа с подсистемой при этом классы подсистемы остаются доступными для прямого использования.
 
-![Facade Pattern Diageam](/assets/Facade.jpg "Facade pattern diagram")
+![Facade pattern diagram](/assets/Facade.jpg "Facade pattern diagram")
+
+## Composite
 
 
-## Decorator
+## Iterator
+
+Паттерн итератор обеспечивает перебор элементов коллекции без раскрытия внутреннего представления коллекции.
+
+![Iterator pattern diagram](/assets/Iterator.jpg "Iterator pattern diagram")
